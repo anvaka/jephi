@@ -1,4 +1,5 @@
 jephi
 =====
 
-I'm trying to use nerl to experiment with API in real project
+This project is an attempt to use `nerl` as a platofrm for development. Secondary
+reason for it is an attempt to replicate some of the functionality of gephi platoform

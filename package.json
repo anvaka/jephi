@@ -1,0 +1,21 @@
+{
+  "name": "jephi",
+  "version": "0.0.0",
+  "description": "jephi - Please ignore me yet"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified yet\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anvaka/jephi.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/anvaka/jephi/issues"
+  },
+  "dependencies": {
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome/archive/v4.0.3.tar.gz"
+  }
+}

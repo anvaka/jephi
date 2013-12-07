@@ -1,7 +1,8 @@
 'use strict';
 
-angular.module('jephiApp', [
+var app = angular.module('jephiApp', [
   'ngRoute'
-]).config(require('./lib/routes'))
-// This is ugly. I believe it could be done better
-  .directive('graphConfiguration', require('./lib/edit/graphConfiguration'));
+]).config(require('./lib/routes'));
+
+// Bind all directives to this angularjs application:
+require('nerl').bindDirectives(app);
